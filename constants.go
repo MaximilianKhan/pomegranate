@@ -81,7 +81,7 @@ package {{.PackageName}}
 //go:generate pmg ingest -package {{.PackageName}} -gofile {{.GoFile}}
 // You can run "go generate {{.GoFile}}" to regenerate this file from the .sql migrations{{end}}
 
-import "github.com/nav-inc/pomegranate"
+import "github.com/maximiliankhan/pomegranate"
 
 var All = []pomegranate.Migration{
 {{range .Migrations}}{
