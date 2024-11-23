@@ -9,7 +9,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/nav-inc/pomegranate"
+	"github.com/maximiliankhan/pomegranate"
 	"github.com/urfave/cli/v2"
 )
 
